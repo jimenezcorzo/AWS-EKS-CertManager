@@ -15,7 +15,7 @@ spec:
     volumeMounts:
     - mountPath: /usr/share/nginx/html
       name: www-content
-    command: ['sh', '-c', 'cd /usr/share/nginx/html; echo "<HTML><HEAD><TITLE>Welcome to our Home page!</TITLE></HEAD><BODY BGCOLOR="FFFFFF"><CENTER><IMG SRC="http://www.pngall.com/wp-content/uploads/4/Wooden-House-PNG-Image.png" ALIGN="BOTTOM"></CENTER><HR><a href="http://my-store-demo.click/">Home...</a>Return to Home Page<HR><a href="http://my-store-demo.click/store">Store...</a>Go to Main Store...<HR><a href="http://my-store-demo.click/cart">Cart...</a>Review your Cart<H1>For Sale</H1><H2>Amazing Products</H2><HR></BODY></HTML>" > index.html']
+    command: ['sh', '-c', 'cd /usr/share/nginx/html; echo "<HTML><HEAD><TITLE>Welcome to our Home page!</TITLE></HEAD><BODY BGCOLOR="FFFFFF"><CENTER><IMG SRC="https://animalcrossingworld.com/wp-content/uploads/2020/05/animal-crossing-new-horizons-guide-villager-house-exterior-al-trim.png" ALIGN="BOTTOM"></CENTER><HR><a href="http://my-store-demo.click/">Home...</a>Return to Home Page<HR><a href="http://my-store-demo.click/store">Store...</a>Go to Main Store...<HR><a href="http://my-store-demo.click/cart">Cart...</a>Review your Cart<H1>For Sale</H1><H2>Amazing Products</H2><HR></BODY></HTML>" > index.html']
   containers:
   - image: nginx
     name: home
